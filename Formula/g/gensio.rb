@@ -34,6 +34,7 @@ class Gensio < Formula
     keep_alive true
     require_root true
     working_dir HOMEBREW_PREFIX
+    sockets "tcp://0.0.0.0:852"
   end
 
   test do
