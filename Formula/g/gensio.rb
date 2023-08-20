@@ -1,8 +1,8 @@
 class Gensio < Formula
   desc "Stream I/O Library"
   homepage "https://github.com/cminyard/gensio"
-  url "https://downloads.sourceforge.net/project/ser2net/ser2net/gensio-2.7.3.tar.gz"
-  sha256 "43cf2af7e9c06b963b4edf0b5b066ac2a248c0d796399d19bd24e28d3292ce8d"
+  url "https://downloads.sourceforge.net/project/ser2net/ser2net/gensio-2.7.4.tar.gz"
+  sha256 "e73661cd36296eb91096d6c72a0753123eae64e9844ccdf3d99294da9934f93c"
   license all_of: ["LGPL-2.1-only", "GPL-2.0-only", "Apache-2.0"]
 
   depends_on "go" => [:build]
