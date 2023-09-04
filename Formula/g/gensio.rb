@@ -1,8 +1,8 @@
 class Gensio < Formula
   desc "Stream I/O Library"
   homepage "https://github.com/cminyard/gensio"
-  url "https://downloads.sourceforge.net/project/ser2net/ser2net/gensio-2.7.6-rc1.tar.gz"
-  sha256 "39782bf997294e2bafabc75374c79191cbf136f8453d2936bd3ae3e1d4c85fed"
+  url "https://downloads.sourceforge.net/project/ser2net/ser2net/gensio-2.7.6.tar.gz"
+  sha256 "7574fb710ddd6580d53ea44af4ddfc57f28dbcdc646d842f7ed8ccc1235fdf89"
   license all_of: ["LGPL-2.1-only", "GPL-2.0-only", "Apache-2.0"]
 
   depends_on "go" => [:build]
@@ -19,7 +19,7 @@ class Gensio < Formula
 
   def install
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    system "./configure", *std_configure_args.reject { |s| s["--disable-debug"] },
+    system "./configure", *std_configure_args,
                           "--disable-silent-rules",
                           "--with-pythoninstall=#{lib}/gensio-python",
                           "--sysconfdir=#{etc}"
