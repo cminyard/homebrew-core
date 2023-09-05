@@ -38,8 +38,6 @@ class Gensio < Formula
   test do
     assert_match version.to_s, shell_output("#{bin}/gensiot --version")
 
-    input = "Hello World!"
-    output = pipe_output("#{bin}/gensiot echo", input, 0)
-    assert_equal output, "Hello World!"
+    assert_equal "Hello World!", pipe_output("#{bin}/gensiot echo", "Hello World!")
   end
 end
