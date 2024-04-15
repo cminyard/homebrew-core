@@ -6,7 +6,7 @@ class Bluez < Formula
   license "GPL-2.0-or-later"
 
   bottle do
-    sha256 x86_64_linux: "9893b9f2376bf8870c7ad34c3ededbb4c3645142947b761ee6da044b2885ced9"
+    sha256 x86_64_linux: "ca2128a9e8830ab62b2b23a00a98857e2fecd4fc3f1014a44c1a33f119e2824c"
   end
 
   depends_on "pkg-config" => :build
