@@ -393,6 +393,7 @@ countdown
 counterfeiter
 coursier
 cp2k
+cpi
 cpm
 cpp-httplib
 cppad
