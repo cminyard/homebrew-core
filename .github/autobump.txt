@@ -1368,6 +1368,7 @@ node@20
 nomino
 noseyparker
 notcurses
+nox
 npm-check-updates
 npth
 nsd
