@@ -8,13 +8,13 @@ class PythonYq < Formula
   license "Apache-2.0"
 
   bottle do
-    sha256 cellar: :any,                 arm64_sonoma:   "e75a0092bae8c43a5d29bc446734fc74b92c83e9529dcce5380fc5e4a6963c6a"
-    sha256 cellar: :any,                 arm64_ventura:  "d8cb114fa829371abfaefb01b7c0fc94297b1dbbbab3b47487f82a3052fc35cd"
-    sha256 cellar: :any,                 arm64_monterey: "997b0d958c3f2b9af03a11ca89016f2af9beccb1a40b2157b47eae1e047acdab"
-    sha256 cellar: :any,                 sonoma:         "59ddada15e40ffd145b4f19f76b43d4abf1e639536c5c8278f801d962fca92b4"
-    sha256 cellar: :any,                 ventura:        "bd5c9c2f8c89c93f1e3da75c6b4d29b84631f6926a977494572c4d3a09a9fba2"
-    sha256 cellar: :any,                 monterey:       "00248558eae93f4f47c995a5f52e67b9074cfdc263970d6a890666a98bef0745"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:   "f0a0359a83f703878759c8ced34625db9a2b0fc9073d10ce3116f5c43b5db1ff"
+    sha256 cellar: :any,                 arm64_sonoma:   "0ecc3dbdd5031a40c567266438843224e4fe8a1bb173e40dbdee08b6fed2633b"
+    sha256 cellar: :any,                 arm64_ventura:  "a3b2e22c6978bf8a606b45d378496ccf587c617686e64457e997fe7ff8797be5"
+    sha256 cellar: :any,                 arm64_monterey: "dfa185947b5609144059a9e488876a3d22f3903a24aa4ba2dcdc0fd49121c057"
+    sha256 cellar: :any,                 sonoma:         "dbf8e04f1e572d04ca513e22711e54cc9ac6078e2b096fb0932d77dd67fefec8"
+    sha256 cellar: :any,                 ventura:        "e5f609838c876e73c184b073a365a193b0052b0116d1e48a0a887b96ea5a4ded"
+    sha256 cellar: :any,                 monterey:       "053625b072aecc7967687f58e4e7eacb9d0597037668444c9812183d9d7b2347"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:   "51fbfd4335f9f59476a69e062f029506d21d2c3146735d44f2bacb0a97bf100d"
   end
 
   depends_on "jq"
