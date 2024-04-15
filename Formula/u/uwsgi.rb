@@ -7,13 +7,13 @@ class Uwsgi < Formula
   head "https://github.com/unbit/uwsgi.git", branch: "master"
 
   bottle do
-    sha256 arm64_sonoma:   "272be41ef3b7b27e3c75e5421a0e01255b599152e795038af690760845e471d0"
-    sha256 arm64_ventura:  "acc2290ddd895c79ef9c707f6ed11b896ddfa87d9fb9e6b047b90814cd968781"
-    sha256 arm64_monterey: "86fc2509893b0ac3a2dd38ffd4833a5a4a5b0e1fce9be98b3b3da7a52641e028"
-    sha256 sonoma:         "24f8b3e43493b1fb1d81dcbe69a8a5f862a3173f24969160d29ee92138ee7bab"
-    sha256 ventura:        "a4cc173f468f37ff2dfd970ab19cd0bddcb840b54382f60aad4660b2efa8e495"
-    sha256 monterey:       "1b6314bdecd056448380231f65129aba5d8b73353eca019e851802b0859ff6f2"
-    sha256 x86_64_linux:   "9aca70907620223f9d4c5cad591f65d1ac28ccad7eb84b7728257bc65512b7f1"
+    sha256 arm64_sonoma:   "983fe6f7af185a9153320b3cd52204dd748e0f41b695f8c6f098e0e11e1a871d"
+    sha256 arm64_ventura:  "b368a4c314a02ff7a8eb6711ee039b257114fdbed533b32e7585c0d41f8ef9e4"
+    sha256 arm64_monterey: "6c09b2e859d6383de85d3e3b8949c24a80d9f5071dfef98fb0f698409be1b7b5"
+    sha256 sonoma:         "5b3a6199dd5cf18504365fa22ca45cde1c861d52a3512ce6a5c2764c985400a1"
+    sha256 ventura:        "042a3a53a27cf8fb4132cb8de7d1b03ab02e243f38b46aeddc009538841b1cf5"
+    sha256 monterey:       "aa8065251cf0676dc1f7a0890c8f78295631fa916ffad0aa9319f8d6e3fa6750"
+    sha256 x86_64_linux:   "d24bc23d5bfcd050697811e1b57950f138fec1b05600e0986c205b80832f5ab2"
   end
 
   depends_on "pkg-config" => :build
