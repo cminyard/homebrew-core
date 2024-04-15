@@ -608,6 +608,7 @@ embree
 emqx
 emscripten
 enchant
+enet
 enpass-cli
 ensmallen
 entr
